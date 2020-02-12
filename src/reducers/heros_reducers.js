@@ -17,7 +17,7 @@ function heros(state = [], action) {
 
 function createCharacter(id) {
   let character = characters_json.find(c => c.id === id);
-  console.log('character: ', character)
+  // console.log('character: ', character)
   return character;
 }
 

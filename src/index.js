@@ -15,7 +15,7 @@ console.log('store.getState(): ', store.getState());
 //   store.dispatch(addCharacterById(2));
 // },1000);
 
-store.subscribe(() => console.log('store.subscribe:(cb) ', store.getState()));
+// store.subscribe(() => console.log('store.subscribe:(cb) ', store.getState()));
 
 ReactDOM.render(
   <Provider store={ store }>
