@@ -6,7 +6,7 @@ import { removeCharacterById } from '../actions/index';
 class HeroList extends Component {
   render() {
     return (
-      <div className="col-6">
+      <div className="col-5">
         <h4>Hero Squad</h4>
         <ul className="list-group">
           {

@@ -10,7 +10,7 @@ class CharactersList extends Component {
 
   render() {
     return (
-      <div className="col-6">
+      <div className="col-5">
         <h4>Characters</h4>
         <ul className="list-group">
           {
